@@ -26,7 +26,7 @@ def mycircle(red, green, blue):
 	t.down() # pen down
 
 for i in range(0, 100):
-	a = random.randint(0,100)/100.0
+	a = random.randint(0,100)/100.0.
 	b = random.randint(0,100)/100.0
 	c = random.randint(0,100)/100.0
 	mycircle(a, b, c) # feed a random color to the function

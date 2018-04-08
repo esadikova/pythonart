@@ -8,6 +8,16 @@ turtle.hideturtle()
 
 turtle.colormode(255)
 
+painter.pencolor("blue")
+for i in range(50):
+    painter.forward(150)
+    painter.left(123) 
+    
+painter.pencolor("red")
+for i in range(50):
+    painter.forward(100)
+    painter.left(123)
+
 def move(length, angle):
                 turtle.right(angle)
                 turtle.forward(length)

@@ -1,7 +1,7 @@
 import turtle 
 import random
 
-colors = ['white', 'white smoke', 'gainsboro', 'light gray', 'dark gray','gray']
+colors = ['DarkCyan','BlueViolet', 'firebrick', 'dark slate blue', 'salmon', 'medium spring green', 'cyan', 'white smoke', 'deep pink']
 
 t=turtle.Pen()
 
@@ -22,7 +22,7 @@ for i in range(150):
     t.begin_fill()
     t.pendown()
 
-    for j in range(7):
+    for j in range(4):
         t.forward(size)
         t.left(random.randint(0,360))
         t.forward(size)
